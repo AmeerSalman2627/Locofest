@@ -1,0 +1,5 @@
+Ideas for login page:
+---------------------------------------
+
+On focus on input field move the label to top.
+Button designs
