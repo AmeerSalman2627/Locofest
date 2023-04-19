@@ -1,0 +1,8 @@
+body{
+  background-color: black;
+  font-family: 'Poppins', sans-serif;
+}
+
+.app_container{
+  min-height:96vh;
+}
