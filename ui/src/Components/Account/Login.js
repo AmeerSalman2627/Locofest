@@ -2,11 +2,13 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
-import './../../Assest/css/Login.css';
 import PersonalLogin from "./PersonalLogin";
 import logo from './../../Assest/Images/Logo/DarkLogo.jpg';
+import TravelAgentLogin from "./TravelAgentLogin";
+import './../../Assest/css/Login.css';
 
 const Login = () => {
+    
     return (
         <Container className="login_container">
             <Row className="login_row">
@@ -23,7 +25,7 @@ const Login = () => {
                                     <PersonalLogin/>
                                 </Tab>
                                 <Tab eventKey="TravelAgent" title="Travel Agent">
-                                jkbjkbkjnk
+                                    <TravelAgentLogin />
                                 </Tab>
                             </Tabs>
                         </div>
