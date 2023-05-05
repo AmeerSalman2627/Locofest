@@ -5,10 +5,6 @@ body{
     background-attachment: fixed;
 }
 
-.app_container{
-    display: flex;
-    align-items: center;
-}
 
 .login_container{
     top:auto;
@@ -17,8 +13,9 @@ body{
     margin: auto;
     right: 0%;
     left: 0%;
-    display: block;
-    margin:0 auto;
+    display: flex;
+    margin:45px auto;
+    min-height:90vh;
 }
 
 .logo_section{
@@ -60,6 +57,11 @@ body{
     background-color:#c1ff72;
     color:black;
     font-weight:bold;
+}
+
+.login_row{
+    display: flex;
+    align-items: center;
 }
 
 /* Perssonal Login Section */
@@ -133,4 +135,157 @@ body{
 .privacy, .agreement, .tnc{
     color:#c1ff72;
     cursor: pointer;
+<<<<<<< Updated upstream
 }
+=======
+}
+
+.user_img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar{
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+}
+
+.otp_back{
+    border: none;
+    text-align: left;
+    color: #c1ff72;
+}
+
+.after_login_section .input-group {
+    margin: 20px auto;
+    position: relative;
+}
+
+.radio-input{
+    padding: 0px !important;
+    display: initial !important;
+    width: auto !important;
+    accent-color: #c1ff72;
+}
+
+.loggin-option-section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.after_login_section input{
+    padding: 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 5px solid #c1ff72;
+    background: transparent;
+    color: white !important;
+    margin-bottom: 20px;
+}
+
+.after_login_section input:focus{
+    outline: none;
+}
+
+.after_login_section label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #999;
+    pointer-events: none;
+    transition: 0.2s ease all;
+  }
+
+  .after_login_section input:focus + label, .after_login_section input:valid + label{
+    top: -15px;
+    left: 0;
+    font-size: 12px;
+}
+
+.after_login_section .otp_verify{
+    background-color: #c1ff72;
+    color: black;
+    font-size: 18px;
+    width: 50%;
+    margin: 5px auto;
+    display: block;
+}
+
+.verify_otp_link{
+    color:black;
+    text-decoration: none !important;
+}
+
+.show_pwd, .hide_pwd{
+    position: absolute;
+    right: 2px;
+    top: 10px;
+}
+
+.form_error{
+    color: red;
+}
+
+/* Travel agent Login Section */
+
+.agent_Login_Form .input-group {
+    margin: 20px auto;
+    position: relative;
+}
+
+.agent_Login_Form input{
+    padding: 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 5px solid #c1ff72;
+    background: transparent;
+    color: white !important;
+    margin-bottom: 20px;
+}
+
+.agent_Login_Form input:focus{
+    outline: none;
+}
+
+.agent_Login_Form label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #999;
+    pointer-events: none;
+    transition: 0.2s ease all;
+  }
+
+.agent_Login_Form input:focus + label, .agent_Login_Form input:valid + label{
+    top: -15px;
+    left: 0;
+    font-size: 12px;
+}
+
+.fgt_pwd{
+    font-size: 18px;
+    color:white;
+    cursor: pointer;
+}
+
+.agent_Login_Form .submit_btn{
+    background-color: #c1ff72;
+    color: black;
+    font-size: 18px;
+    width: 50%;
+    margin: 5px auto;
+    display: block;
+}
+
+
+@media only screen and (max-width: 720px) {
+    .logo_section {
+      display: none;
+    }
+  }
+>>>>>>> Stashed changes

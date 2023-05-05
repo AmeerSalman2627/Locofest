@@ -1,0 +1,36 @@
+.continent-container{
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.continent-container h1{
+    text-align: center;
+    color:#fff;
+    text-transform: capitalize;
+}
+
+.continent-section img{
+    height:200px;
+    width: 300px;
+}
+
+.continent-section h2{
+    text-align: center;
+    color:#fff;
+    text-transform: capitalize;
+}
+
+.continent-section .each_continent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.continent-section .each_continent:hover{
+    transform: scale(1.2);
+}
