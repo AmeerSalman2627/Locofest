@@ -108,6 +108,11 @@ body{
     color: #999;
     pointer-events: none;
     transition: 0.2s ease all;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out
   }
 
 .Personal_Login_Form input:focus + label, .Personal_Login_Form input:valid + label{
@@ -118,7 +123,6 @@ body{
 
 .fgt_pwd{
     font-size: 18px;
-    margin: 5 auto;
     color:white;
     cursor: pointer;
 }
@@ -135,9 +139,7 @@ body{
 .privacy, .agreement, .tnc{
     color:#c1ff72;
     cursor: pointer;
-<<<<<<< Updated upstream
-}
-=======
+
 }
 
 .user_img{
@@ -215,6 +217,7 @@ body{
     display: block;
 }
 
+
 .verify_otp_link{
     color:black;
     text-decoration: none !important;
@@ -287,5 +290,9 @@ body{
     .logo_section {
       display: none;
     }
+
   }
->>>>>>> Stashed changes
+
+
+
+

@@ -66,9 +66,7 @@ Colors to be used
 -----------------
 
 Background color - BLACK
-<<<<<<< Updated upstream
-Body data, button colors - Lime Green(#c1ff72) and White (#fff)
-=======
+
 Body data, button colors - Lime Green(#c1ff72) and White (#fff)
 
 
@@ -79,12 +77,18 @@ Bootstrap and react-bootstrap -> for css
 jquery - > functions
 react-hook-form -> Form Validations
 react-icons -> svg icon
+
 react-router-dom -> routing between pages
+
 
 
 
 LOGIN PAGE:
 ----------
 
+
 Hide and show password, validation.
->>>>>>> Stashed changes
+
+=======
+Hide and show password, validation.
+
