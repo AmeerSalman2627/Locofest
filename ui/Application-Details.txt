@@ -66,7 +66,6 @@ Colors to be used
 -----------------
 
 Background color - BLACK
-
 Body data, button colors - Lime Green(#c1ff72) and White (#fff)
 
 
@@ -78,17 +77,9 @@ jquery - > functions
 react-hook-form -> Form Validations
 react-icons -> svg icon
 
-react-router-dom -> routing between pages
-
-
 
 
 LOGIN PAGE:
 ----------
 
-
 Hide and show password, validation.
-
-=======
-Hide and show password, validation.
-
