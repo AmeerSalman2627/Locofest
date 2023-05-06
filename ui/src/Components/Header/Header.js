@@ -2,10 +2,10 @@ import {Container} from 'react-bootstrap';
 
 const Header = () => {
     return(
-        <Container className='header_container'>
-            Logo
+        <Container fluid className='header_container'>
+            ghghfhjfjh
         </Container>
     )
-}
+};
 
 export default Header;

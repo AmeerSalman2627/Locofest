@@ -1,7 +1,7 @@
 import { Row } from 'react-bootstrap';
-import $ from 'jquery';
+// import $ from 'jquery';
 import { useForm } from "react-hook-form";
-import { FaArrowLeft } from 'react-icons/fa';
+// import { FaArrowLeft } from 'react-icons/fa';
 import { useState } from 'react';
 
 const TravelAgentLogin = () => {
