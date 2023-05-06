@@ -6,7 +6,6 @@ import { useState } from 'react';
 import { Link } from "react-router-dom";
 
 const PersonalLogin = () => {
-
     const [showpwd, setShowPwd] = useState(false);
     const { register, formState: { errors }, handleSubmit } = useForm();
     const login = (data) => {
@@ -23,7 +22,6 @@ const PersonalLogin = () => {
         $('.after_login_section').attr('hidden', true);
         $('.nav-justified').attr('hidden', false);
     }
-
     return (
         <Row className='personal_login_section'>
             <form className='Personal_Login_Form' onSubmit={handleSubmit(login)}>
@@ -52,7 +50,6 @@ const PersonalLogin = () => {
                 <p className='fgt_pwd mt-2'>Forgot Password?</p>
                 <button className="btn submit_btn" type="submit" >Sign in</button>
             </form>
-
             <Row className='after_login_section' hidden>
                 <button className="btn otp_back" type="submit" onClick={backToLogin}><FaArrowLeft />Back</button>
                 <div className='user_img mt-2'>
@@ -64,13 +61,12 @@ const PersonalLogin = () => {
                     <div className="input-group">
                         <input type="text" id="otp" name="otp" required />
                         <label htmlFor="otp">One Time Password</label>
+
                     </div> 
 
                     <Link to="/destination" className='verify_otp_link'>
                         <button className="btn otp_verify" type="submit">Verify OTP</button>
                     </Link>
-
-
                 </div>
             </Row>
             <div className='tnc_section' style={{ marginTop: '10px' }}>
