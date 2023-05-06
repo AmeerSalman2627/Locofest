@@ -3,6 +3,7 @@ import $ from 'jquery';
 import { useForm } from "react-hook-form";
 import { FaArrowLeft } from 'react-icons/fa';
 import { useState } from 'react';
+import { Link } from "react-router-dom";
 
 const PersonalLogin = () => {
     const [showpwd, setShowPwd] = useState(false);
@@ -60,8 +61,12 @@ const PersonalLogin = () => {
                     <div className="input-group">
                         <input type="text" id="otp" name="otp" required />
                         <label htmlFor="otp">One Time Password</label>
-                    </div>
-                    <button className="btn otp_verify" type="submit">Verify OTP</button>
+
+                    </div> 
+
+                    <Link to="/destination" className='verify_otp_link'>
+                        <button className="btn otp_verify" type="submit">Verify OTP</button>
+                    </Link>
                 </div>
             </Row>
             <div className='tnc_section' style={{ marginTop: '10px' }}>
