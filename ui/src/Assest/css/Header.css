@@ -1,0 +1,179 @@
+.header_container{
+    background-color: black !important;
+}
+
+.mob_home_page_logo{
+    display: none;
+}
+
+/* User.js CSS */
+
+.user_login_section{
+    min-height: 2.5em;
+}
+
+.info_col{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.saver_header_text{
+    margin-left:5px;
+    color: #fff;
+    font-size:15px;
+    text-transform: uppercase;
+}
+
+.seperator{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: white;
+    font-size: 30px;
+}
+
+.advertise_button{
+    background: transparent;
+    border: none;
+}
+
+.advertise_button:hover{
+    background:#c1ff72;
+    color: black;
+}
+
+.login_col{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.user_btn{
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    font-size:20px;
+    margin: 0 5px;
+    text-transform: uppercase;
+}
+
+.user_btn::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #c1ff72;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.user_btn:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.ccl_btn{
+    background: transparent;
+    border: none;
+    width: 3em;
+    display: flex;
+    justify-content: center;
+}
+
+.ccl_btn:hover{
+    background: #c1ff72;
+    color:black;
+}
+
+.flag-icon-rounded {
+    border-radius: 50%;
+    height: 1.5em;
+    background-size: cover;
+    margin: 0 7px;
+}
+
+/* Navigation.css */
+
+.user-header-section{
+    background-color: #252525;
+}
+
+.home_page_logo{
+    width:10em;
+    height:10em;
+}
+
+.loco_nav{
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+}
+
+.loco_nav li{
+    border-bottom: 2px solid #fff;
+}
+.loco_nav li:hover{
+    border-color: #c1ff72 !important;
+}
+
+.loco_nav a{
+    color: white !important;
+    font-weight: bold;
+}
+
+.loco_nav a:hover{
+    color: #c1ff72 !important;
+}
+
+
+  /* Mobile CSS */
+
+@media only screen and (max-width: 720px) {
+
+    .info_col{
+        display: none;
+    }
+    .login_col{
+        justify-content: center;
+    }
+    .mob_home_page_logo{
+        display: block;
+        height:70px;
+        width:70px;
+    }
+    .logo_desktop{
+        display: none;
+    }
+    .loco_mob_icon{
+        border: 1px solid #c1ff72;
+        margin-right: 25px;
+    }
+
+}
+  
+
+/* Ipad and Tabs Screen */
+
+@media only screen and (min-width: 722px) and  (max-width:1000px) {
+
+    .login_col{
+        justify-content: center;
+    }
+    .mob_home_page_logo{
+        display: block;
+        height:70px;
+        width:70px;
+    }
+    .logo_desktop{
+        display: none;
+    }
+    .loco_mob_icon{
+        border: 1px solid #c1ff72;
+        margin-right: 25px;
+    }
+
+
+}
