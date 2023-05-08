@@ -54,6 +54,8 @@ Here are some travel website ideas that you could consider:
 
 -- Food and drink travel websites: Build a website that focuses on food and drink travel, providing information on local cuisine, wineries, breweries, and distilleries.
 
+-- Travellers websites
+
 ---------------------------------------------------------------------------------------------------------------------------------
 
 Completly developed in react.js
@@ -82,3 +84,11 @@ Hide and show password, validation.
 =======
 Hide and show password, validation.
 
+
+
+Dashboard ideas:
+---------------
+
+For common dahboards we can have text like that.
+
+For country based dashboards we can have a image of that country with Enjoy ur vacation at "Country Name", continued with ticket booking, city of choices for hotel,
