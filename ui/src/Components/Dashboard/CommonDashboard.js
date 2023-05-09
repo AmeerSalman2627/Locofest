@@ -1,25 +1,25 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
-import mainmasthead from '../../Assest/Images/Home/HomeMainMasthead.jpg';
+import { Container, Row, Col, Button } from 'react-bootstrap';
+import mainmasthead from '../../Assest/Images/Home/HomeMainMasthead1.jpg';
 // import world from '../../Assest/Images/Home/world.gif';
 import '../../Assest/css/Dashboards/CommonDashboard.css';
 
 const CommonDashboard = () => {
     return (
         <Container className='common_dashboard_section'>
-            {/* <div>
-                <img src={mainmasthead} alt="Main MastHead"></img>
-            </div> */}
-            <Row className='main_masthead_row1'>
-                <Col lg={6} md={6} sm={12} className="masthead_text1">
-                    Explore
+            <Row className='main_masthead_row'>
+                <Col lg={6} md={6} sm={12} className='mainmasthead_col1'>
+                    <div className="masthead_text1">
+                        <span style={{color:'white',fontSize:'50px'}}>Showing</span> you the world,
+                        <span style={{color:'white',fontSize:'50px'}}>One country</span> at a time.
+                    </div>
+                    <div className='explorenow'>
+                        <Button className='explore_btn'>Explore Now</Button>
+                    </div>
                 </Col>
-                <Col lg={6} md={6} sm={12} className='mainmasthead_image'>
+                <Col lg={6} md={6} sm={12}>
                     <img src={mainmasthead} alt="Main MastHead" className='mainImage'></img>
                 </Col>
-            </Row>
-            <Row className='main_masthead_row2'>
-                the whole world with <span className='us'>us</span>
             </Row>
         </Container>
     )
