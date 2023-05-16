@@ -89,6 +89,15 @@ Hide and show password, validation.
 Dashboard ideas:
 ---------------
 
+registration Page - select agent or user an twodif reg page
+
 For common dahboards we can have text like that.
 
 For country based dashboards we can have a image of that country with Enjoy ur vacation at "Country Name", continued with ticket booking, city of choices for hotel,
+
+
+Completed pages
+---------------
+
+Login page - Both Travel agent and personalized
+Common Dashboard

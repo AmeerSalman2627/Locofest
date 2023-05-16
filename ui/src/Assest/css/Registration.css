@@ -1,0 +1,118 @@
+.user-registration-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+}
+
+.user-registration-row{
+    top:auto;
+    position: absolute;
+    border: 2px solid #c1ff72;
+    color: white;
+    width:40%;
+}
+
+.user_reg_logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+}
+
+.user_reg_logo h3{
+    text-align:center;
+    text-transform: uppercase;
+}
+
+.logo{
+    height:140px;
+    width:150px;
+}
+
+.user-registration-row .input-group {
+    margin: 20px auto;
+    position: relative;
+}
+
+.user-registration-row input{
+    padding: 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 5px solid #c1ff72;
+    background: transparent;
+    color: white !important;
+    margin-bottom: 20px;
+}
+
+.user-registration-row input:focus{
+    outline: none;
+}
+
+.user-registration-row label {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    color: #999;
+    pointer-events: none;
+    transition: 0.2s ease all;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out
+  }
+
+.user-registration-row input:focus + label, .user-registration-row input:valid + label{
+    top: -15px;
+    left: 5px;
+    font-size: 12px;
+}
+
+.user-registration-row .register_btn{
+    background-color: #c1ff72;
+    color: black;
+    font-weight:bold;
+    font-size: 18px;
+    display: block;
+    border: none;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.user-registration-row .register_btn:hover{
+    background-color: #c1ff72;
+    color: black;
+    font-weight:bold;
+}
+
+.user-registration-row p{
+    text-align:center;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.another_reg{
+    margin: 0 auto;
+    color: #c1ff72;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.another_reg svg{
+    height:30px;
+    width:30px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 720px) {
+    .user-registration-row{
+        width:80%;
+    }
+
+    .user-registration-section{
+        align-items: normal;
+    }
+}
+

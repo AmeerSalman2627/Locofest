@@ -1,4 +1,5 @@
 import {Button, Col, Row} from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import "/node_modules/flag-icons/css/flag-icons.min.css";
 
 const User = () => {
@@ -15,11 +16,15 @@ const User = () => {
             </div>
         </Col>
         <Col lg={6} md={6} sm={12} className="login_col">
-            <span className="login_btn user_btn">Login</span>
-            <span className="register_btn user_btn">Register</span>
-                <Button className='ccl_btn language_btn'>EN</Button>
-                <Button className='ccl_btn curr_btn'> $INR</Button>
-                <span class="flag-icon flag-icon-in flag-icon-rounded"></span>
+            <Link to="/login" className='login_link'>
+                <span className="login_btn user_btn">Login</span>
+            </Link>
+            <Link to="/userRegistration" className='login_link'>
+                <span className="register_btn user_btn">Register</span>
+            </Link>
+            <Button className='ccl_btn language_btn'>EN</Button>
+            <Button className='ccl_btn curr_btn'> INR</Button>
+            <span class="flag-icon flag-icon-in flag-icon-rounded"></span>
 
         </Col>
     </Row>

@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import PersonalLogin from "./PersonalLogin";
-import logo from './../../Assest/Images/Logo/DarkLogo.jpg';
+import logo from './../../Assest/Images/Logo/LocofestLogo.png';
 import TravelAgentLogin from "./TravelAgentLogin";
 import './../../Assest/css/Login.css';
 
