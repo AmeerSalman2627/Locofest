@@ -1,3 +1,9 @@
+.main_masthead_image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .masthead_text1{
     font-size:75px;
     color: #c1ff72;
@@ -9,6 +15,7 @@
     display: flex;
     align-items: flex-start;
     flex-direction: column;
+    justify-content: center;
 }
 
 .mainmasthead_image{
@@ -37,3 +44,142 @@
     color:black;
 }
 
+/* Information Section */
+
+.information_section{
+    color: white;
+}
+
+.information_heading #header{
+    color: #c1ff72;
+    font-size:50px;
+}
+
+.information_heading p{
+    text-align: center;
+}
+
+.info_icon_div{
+    text-align: center;
+}
+
+.info_icon_div:hover{
+    color: #c1ff72;
+}
+
+.info_icon{
+    height:130px;
+    width:130px;
+}
+
+.info_desc p{
+    text-align: center;
+}
+
+/* Best Sellers */
+
+.best_seller_section{
+    color: white;
+    margin:20px 0;
+}
+
+.best_seller_header{
+    text-transform: uppercase;
+    color:#c1ff72;
+    text-align: center;
+}
+
+.best_seller_text{
+    text-align: center;
+}
+
+.best_seller_card{
+    margin-top:10px;
+    cursor: pointer;
+}
+
+.best_seller_img{
+    height:80%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.best_seller_days_rate{
+    display: flex;
+    justify-content: space-between;
+    margin-top:5px;
+}
+
+.seller_rate{
+    color:#c1ff72;
+    font-weight:bold;
+}
+
+.seller_description{
+    font-size: 20px;
+}
+
+.view_all_package{
+    background-color: #c1ff72;
+    color: black;
+    font-weight:bold;
+    font-size: 18px;
+    width:200px;
+    display: block;
+    border: none;
+    margin:10px auto;
+}
+
+.view_all_package:hover{
+    background-color: #c1ff72;
+    border: 1px solid white;
+    color:black;
+}
+
+/* Top Values */
+
+.top_values_section{
+    margin: 15px 0;
+    color: white;
+}
+
+.top_values_header{
+    /* text-align: center; */
+    color: #c1ff72;
+}
+
+.advatage_data{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.advantage_icon{
+    height:70px;
+    width:70px;
+    margin: 0 auto;
+}
+
+.about_us{
+    background-color: #c1ff72;
+    color: black;
+    font-weight:bold;
+    font-size: 18px;
+    width:200px;
+    display: block;
+    border: none;
+}
+
+.about_us:hover{
+    background-color: #c1ff72;
+    border: 1px solid white;
+    color:black;
+}
+
+
+@media screen and (max-width:720px) {
+    .information_heading #header{
+        font-size:25px;
+    }
+}

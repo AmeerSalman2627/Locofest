@@ -1,7 +1,7 @@
 .user-registration-section{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center !important;
     min-height:100vh;
 }
 

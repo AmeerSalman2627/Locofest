@@ -16,7 +16,7 @@ const Navigation = () => {
                 </button>
                 <div className="container">
                     <div className="collapse navbar-collapse" id="locofestNavbar">
-                        <ul className="navbar-nav me-auto mb-2 mb-lg-0 loco_nav">
+                        <ul className="navbar-nav mb-2 mb-lg-0 loco_nav">
                             <li className="nav-item">
                                 <Link to="/" className="nav-link active" aria-current="page" href="#">Travel</Link>
                             </li>
