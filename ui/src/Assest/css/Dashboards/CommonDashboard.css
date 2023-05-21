@@ -143,6 +143,10 @@
     color: white;
 }
 
+.top_value_col{
+    margin-top: 10px;
+}
+
 .top_values_header{
     /* text-align: center; */
     color: #c1ff72;
@@ -177,6 +181,86 @@
     color:black;
 }
 
+/* Subscribe Section */
+
+.subscribe_section{
+    background-image: url('../../Images/Home/subscribe.png');
+    height: 370px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.subscribe_section .form-group{
+    display: contents;
+}
+
+.subscribe_section input{
+    width:40%;
+    margin-top: 15%;
+    background:transparent;
+}
+
+.subscribe_btn{
+    background-color: #c1ff72;
+    margin-top: 15%;
+    margin-left: 10px;
+    color: black;
+    font-weight:bold;
+    font-size: 18px;
+    height:fit-content;
+    display: block;
+    border: none;
+}
+
+.subscribe_btn:hove{
+    background-color: #c1ff72;
+    border: 1px solid white;
+    color:black;
+}
+
+/* Experience Section */
+
+.experience{
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    height:150px;
+    background-color:rgb(29 30 31);
+    border-radius: 5px;
+}
+
+.experience div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.experience span{
+    font-size:25px;
+}
+
+.book_tour{
+    background-color: #c1ff72;
+    color: black;
+    font-weight:bold;
+    font-size: 18px;
+    width:200px;
+    display: block;
+    border: none;
+}
+
+.book_tour:hover{
+    background-color: #c1ff72;
+    border: 1px solid white;
+    color:black;
+}
 
 @media screen and (max-width:720px) {
     .information_heading #header{

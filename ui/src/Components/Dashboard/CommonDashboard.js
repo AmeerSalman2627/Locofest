@@ -55,7 +55,21 @@ const CommonDashboard = () => {
             </Row>
             <BestSellers/>
             <Topvalues />
-        </Container>
+            <Row className='subscribe_section'>
+                <div class="form-group">
+                    <input type="email" class="form-control" id="subscribeemail" aria-describedby="subscribeemail" placeholder="Enter email" />
+                    <Button className='subscribe_btn'>Subscribe</Button>
+                </div>
+            </Row>
+            <Row className='experience'>
+                <Col lg={6} md={6} sm={12}>
+                    <span className='experience_text'>Experience the rich culture of Europe</span>
+                </Col>
+                <Col lg={6} md={6} sm={12}>
+                    <Button className='book_tour'>Book a Tour</Button>
+                </Col>
+            </Row>
+        </Container> 
     )
 }
 
