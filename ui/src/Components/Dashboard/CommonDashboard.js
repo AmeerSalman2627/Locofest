@@ -5,6 +5,8 @@ import { TbBackpack, TbPlaneInflight, TbHotelService } from 'react-icons/tb';
 import '../../Assest/css/Dashboards/CommonDashboard.css';
 import BestSellers from './BestSellers';
 import Topvalues from './TopValues';
+import Partners from './Partners';
+import CustomerReview from './CustomerReview';
 
 const CommonDashboard = () => {
     return (
@@ -69,6 +71,8 @@ const CommonDashboard = () => {
                     <Button className='book_tour'>Book a Tour</Button>
                 </Col>
             </Row>
+            <Partners />
+            <CustomerReview />
         </Container> 
     )
 }

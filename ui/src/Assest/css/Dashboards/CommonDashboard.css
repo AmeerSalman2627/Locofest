@@ -262,6 +262,91 @@
     color:black;
 }
 
+
+/* Partner Section */
+
+.partners_section{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.partner_header{
+    text-transform: uppercase;
+    color:#c1ff72;
+    text-align: center;
+}
+
+.partner_icon{
+    width: 250px;
+}
+
+
+/* Customer Review Section */
+
+.cusreview_section{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.customerreview_header{
+    text-transform: uppercase;
+    color:#c1ff72;
+    text-align: center;
+}
+
+.customerreview_header p{
+    color: white;
+    text-align: center;
+}
+
+.customer_col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top:15px;
+}
+
+.customer_img{
+    border-radius: 50%;
+    height:100px;
+    width:100px;
+    border: 2px solid black;;
+    margin-left: 35%;
+    z-index:100;
+}
+
+.customer_review{
+    display: flex;
+    background-color: #ffffff;
+    border: 2px solid #c1ff72;
+    border-radius: 8px;
+    color: rgb(24, 24, 24);
+    font-size: 16px;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -50px;
+}
+
+.star_icon{
+    width:40px;
+    height:40px;
+    color: gold;
+}
+
+.customer_text{
+    overflow-wrap: anywhere;
+    margin: 5px;
+    text-align: center;
+}
+
+
+
 @media screen and (max-width:720px) {
     .information_heading #header{
         font-size:25px;
