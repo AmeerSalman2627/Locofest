@@ -7,6 +7,7 @@ import BestSellers from './BestSellers';
 import Topvalues from './TopValues';
 import Partners from './Partners';
 import CustomerReview from './CustomerReview';
+import Contact from './Contact';
 
 const CommonDashboard = () => {
     return (
@@ -73,6 +74,17 @@ const CommonDashboard = () => {
             </Row>
             <Partners />
             <CustomerReview />
+            <Row className='gallery_section'>
+                <div className='gallery_content'>
+                    <h6 className='gallery_title'>Our Gallery</h6>
+                    <h3 className='gallery_headline'>See world through our customer eyes as they capture nature,</h3>
+                    <h3 className='gallery_headline'> experience and lifestyle and share their</h3>
+                    <h3 className='gallery_headline'>experience with us</h3>
+                    <p className='gallery_description'>Take a look at our gallery that features the best moments from our tours and excursions.</p>
+                    <Button className='gallery_btn'>Gallery</Button>
+                </div>
+            </Row>
+            <Contact></Contact>
         </Container> 
     )
 }
