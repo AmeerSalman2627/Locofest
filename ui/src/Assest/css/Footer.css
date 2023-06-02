@@ -1,0 +1,72 @@
+.footer_section{
+    margin-top:10px;
+    margin-bottom: 10px;
+    color: white;
+    border-top: 2px solid white;
+}
+
+.footer_content_row{
+    margin-top:10px;
+}
+
+.twitter_feed_section h4{
+    color:#c1ff72;
+    font-weight: bold;
+}
+
+.footer_count{
+    color: #c1ff72;
+    font-weight: bold;
+}
+
+.footer_tweets{
+    display: flex;
+}
+
+
+.tweet_icon{
+    color:#c1ff72;
+}
+
+.tweet_text{
+    overflow-wrap: anywhere;
+    margin-left: 10px;
+}
+
+.add_info{
+    list-style-type: none;
+}
+
+.add_info a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.add_info a:hover{
+    color: #c1ff72;
+    text-decoration: underline;
+}
+
+.footer_newsletter_section h4{
+    color: #c1ff72;
+    font-weight: bold;
+}
+
+.social_icons{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.socicon{
+    margin: 0 10px;
+    color:#c1ff72;
+    height:40px;
+    width:40px;
+    cursor: pointer;
+}
+
+.copyRight{
+    text-align: center;
+}
