@@ -1,0 +1,41 @@
+
+.booking_type_card{
+    background-color: #c1ff72;
+    width:70%;
+    margin: 0 auto;
+    color: black;
+    font-size:25px;
+    font-weight: bold;
+    z-index: 5;
+}
+
+.booking_type_section:hover{
+    text-decoration: underline;
+}
+
+.booking_type_section{
+    text-align: center;
+}
+
+.booking_type_icon{
+    width:30px;
+    height:30px;
+}
+
+.booking_type_text{
+    text-transform: capitalize;
+    margin: 0 5px;
+}
+
+.booking_selection_card{
+    min-height: 100px;
+    background-color: transparent !important;
+    color: white;
+    border: 1px solid #c1ff72;
+    position: relative;
+    top: -20%;
+}
+
+.booking_selection_row{
+    margin-top: 40px;
+}

@@ -8,6 +8,7 @@ import Topvalues from './TopValues';
 import Partners from './Partners';
 import CustomerReview from './CustomerReview';
 import Contact from './Contact';
+import { Link } from 'react-router-dom';
 
 const CommonDashboard = () => {
     return (
@@ -22,7 +23,7 @@ const CommonDashboard = () => {
                         <span style={{color:'white',fontSize:'50px'}}>One country</span> at a time.
                     </div>
                     <div className='explorenow'>
-                        <Button className='explore_btn'>Explore Now</Button>
+                        <Link to="/selectContinent" style={{textDecoration: 'none'}}><Button className='explore_btn'>Explore Now</Button></Link>
                     </div>
                 </Col>
             </Row>

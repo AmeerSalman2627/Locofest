@@ -6,6 +6,7 @@ import Destination from './Components/Destination/Destination';
 import CommonDashboard from './Components/Dashboard/CommonDashboard';
 import AuthLayout from './AuthLayout';
 import UserRegistration from './Components/Account/UserRegister';
+import Home from './Components/Booking/Home';
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
         <Route path="/destination" element={<Destination />}></Route>
         <Route element={<AuthLayout/>}>
           <Route path="/" element={<CommonDashboard />}></Route>
+          <Route path="/selectContinent" element={<Destination />}></Route>
+          <Route path="/travelBooking" element={<Home />}></Route>
         </Route>
       </Routes>
     </BrowserRouter>

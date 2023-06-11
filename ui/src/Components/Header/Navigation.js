@@ -18,7 +18,7 @@ const Navigation = () => {
                     <div className="collapse navbar-collapse" id="locofestNavbar">
                         <ul className="navbar-nav mb-2 mb-lg-0 loco_nav">
                             <li className="nav-item">
-                                <Link to="/" className="nav-link active" aria-current="page" href="#">Travel</Link>
+                                <Link to="/travelBooking" className="nav-link active" aria-current="page" href="#">Travel</Link>
                             </li>
                             <li className="nav-item">
                                 <Link to="/destination" className="nav-link" href="#">Destination</Link>
